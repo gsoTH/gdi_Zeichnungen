@@ -37,9 +37,10 @@
             // cbxShowGoal
             // 
             this.cbxShowGoal.AutoSize = true;
-            this.cbxShowGoal.Location = new System.Drawing.Point(22, 17);
+            this.cbxShowGoal.Location = new System.Drawing.Point(12, 8);
+            this.cbxShowGoal.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.cbxShowGoal.Name = "cbxShowGoal";
-            this.cbxShowGoal.Size = new System.Drawing.Size(196, 36);
+            this.cbxShowGoal.Size = new System.Drawing.Size(98, 19);
             this.cbxShowGoal.TabIndex = 0;
             this.cbxShowGoal.Text = "Ziel anzeigen ";
             this.cbxShowGoal.UseVisualStyleBackColor = true;
@@ -50,8 +51,9 @@
             this.pbxGoal.Image = ((System.Drawing.Image)(resources.GetObject("pbxGoal.Image")));
             this.pbxGoal.InitialImage = ((System.Drawing.Image)(resources.GetObject("pbxGoal.InitialImage")));
             this.pbxGoal.Location = new System.Drawing.Point(1, 0);
+            this.pbxGoal.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.pbxGoal.Name = "pbxGoal";
-            this.pbxGoal.Size = new System.Drawing.Size(1078, 897);
+            this.pbxGoal.Size = new System.Drawing.Size(580, 420);
             this.pbxGoal.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxGoal.TabIndex = 1;
             this.pbxGoal.TabStop = false;
@@ -60,13 +62,15 @@
             // 
             // FrmWuerfel
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1086, 894);
+            this.ClientSize = new System.Drawing.Size(585, 419);
             this.Controls.Add(this.cbxShowGoal);
             this.Controls.Add(this.pbxGoal);
+            this.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.Name = "FrmWuerfel";
             this.Text = "Würfel";
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.FrmWuerfel_Paint);
             ((System.ComponentModel.ISupportInitialize)(this.pbxGoal)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

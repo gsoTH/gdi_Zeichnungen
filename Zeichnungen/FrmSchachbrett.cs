@@ -22,5 +22,10 @@ namespace Zeichnungen
         {
             pbxGoal.Visible = cbxShowGoal.Checked;
         }
+
+        private void FrmSchachbrett_Paint(object sender, PaintEventArgs e)
+        {
+            //Viel Erfolg! ;)
+        }
     }
 }
