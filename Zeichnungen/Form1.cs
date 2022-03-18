@@ -16,5 +16,17 @@ namespace Zeichnungen
         {
             InitializeComponent();
         }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FrmSchachbrett frmSchachbrett = new FrmSchachbrett();
+            frmSchachbrett.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FrmWuerfel frmWuerfel = new FrmWuerfel();
+            frmWuerfel.Show();
+        }
+
     }
 }
