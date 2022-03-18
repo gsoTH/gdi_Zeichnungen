@@ -34,8 +34,8 @@ namespace Zeichnungen
             Pen pen = new Pen(Color.Black, 2);
 
             //Mitte
-            Point om = new Point(w/2, 0);
-            Point um = new Point(w/2, h);
+            Point mo = new Point(w/2, 0);
+            Point mu = new Point(w/2, h);
 
             //Mitte links+rechts
             Point lm = new Point(0, h/2);
@@ -49,13 +49,25 @@ namespace Zeichnungen
             Point lmu = new Point(0, lm.Y + lm.Y / 2);
             Point rmu = new Point(w, lm.Y + lm.Y / 2);
  
-            //Zeichnungen
-            g.DrawLine(pen, om, lmo);
+            //Zeichnungen für die Umrandung
+            g.DrawLine(pen, mo, lmo);
             g.DrawLine(pen, lmo, lm);
             g.DrawLine(pen, lm, lmu);
-            g.DrawLine(pen, lmu, um);
+            g.DrawLine(pen, lmu, mu);
+            g.DrawLine(pen, mu, rmu);
+            g.DrawLine(pen, rmu, rm);
+            g.DrawLine(pen, rm, rmo);
+            g.DrawLine(pen, rmo, mo);
 
 
+
+            //
+            //Point mm = new Point(mo.X, mo.Y + lmo.Y);
+            //Point mm = new Point(mo.X, (lm.Y-lmo.Y)/2);
+            Point mm = new Point(mo.X, lm.Y);
+            g.DrawLine(pen, lmo, mm);
+            g.DrawLine(pen, rmo, mm);
+            g.DrawLine(pen, mu, mm);
 
         }
     }
