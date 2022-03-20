@@ -1,13 +1,18 @@
  # Zeichnungen
- Ein Repo mit Übungen für GDI+.
+ Ein Repo mit Ãœbungen fÃ¼r GDI+.
 
- ## Wie verwende ich dieses Repo?
+ ## Loslegen :rocket: 
+ (Wie verwende ich dieses Repo?)
 
-Um loszulegen sollte dieses Repository geklont werden (entweder über die git-Konsole, oder mit der Schaltfläche hier in GitHub). Anschließend kann man sich die einzelnen Aufgaben ansehen. Dieses Repo hat zwei wichtige branches: master und loesungen. 
-Im Master sind die Aufgabenstellugnen enthalten. In Loesungen sind meine Lösungsvorschläge dazu.
+Um loszulegen sollte dieses Repository geklont werden (entweder Ã¼ber die git-Konsole, oder mit der SchaltflÃ¤che hier in GitHub). AnschlieÃŸend kann man die Solution [Zeichnungen/Zeichnungen.sln](./Zeichnungen/Zeichnungen.sln) mit VisualStudio Ã¶ffnen. sich die einzelnen Aufgaben ansehen. 
 
-Es kann natürlich abweichende Lösungen geben ;)
+### Branches :seedling:
+Dieses Repo hat zwei wichtige branches: master und loesungen. 
+Im Master sind die Aufgabenstellugnen enthalten. In Loesungen sind meine LÃ¶sungsvorschlÃ¤ge dazu.
 
-Ich empfehle in jedem Fall, die folgenden Ratschläge zu befolgen:
-- Die Darstellung sollte auf Größenänderungen der Form reagieren können. D.h. dass keine absoluten Werte eingesetzt werden (z.B. 200), sondern dass variable Größen eingebaut werden (z.B. ClientSize/4).
-- Der Code sollte möglichst häufig wiederverwenden werden. D.h. dass es z.B. sinnvoller ist, zwei Points zu definieren, statt zwei Linien mit jeweils zwei Points zu zeichnen.
+Es kann natÃ¼rlich abweichende LÃ¶sungen geben ;)
+
+### Ziele / Regeln :dart:
+Ich empfehle in jedem Fall, die folgenden RatschlÃ¤ge zu befolgen:
+- Die Darstellung sollte auf GrÃ¶ÃŸenÃ¤nderungen der Form reagieren kÃ¶nnen. D.h. dass keine absoluten Werte eingesetzt werden (z.B. 200), sondern dass variable GrÃ¶ÃŸen eingebaut werden (z.B. ClientSize/4).
+- Der Code sollte mÃ¶glichst hÃ¤ufig wiederverwenden werden. D.h. dass es z.B. sinnvoller ist, zwei Points zu definieren, statt zwei Linien mit jeweils zwei Points zu zeichnen.
