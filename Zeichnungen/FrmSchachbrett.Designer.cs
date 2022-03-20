@@ -64,6 +64,7 @@
             this.Controls.Add(this.cbxShowGoal);
             this.Name = "FrmSchachbrett";
             this.Text = "Schachbrett";
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.FrmSchachbrett_Paint);
             ((System.ComponentModel.ISupportInitialize)(this.pbxGoal)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
